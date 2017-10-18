@@ -1,9 +1,9 @@
 /**
- * 调整页面大小自适应屏幕。必须在body加载之前调整
+ * 碌梅脮没脪鲁脙忙麓贸脨隆脳脭脢脢脫娄脝脕脛禄隆拢卤脴脨毛脭脷body录脫脭脴脰庐脟掳碌梅脮没
  * 
  */
 
-//调整页面大小自适应屏幕
+//碌梅脮没脪鲁脙忙麓贸脨隆脳脭脢脢脫娄脝脕脛禄
 !function(x) {
     function w() {
         var a = r.getBoundingClientRect().width;
@@ -11,7 +11,7 @@
     }
     var v, u, t, s = x.document, r = s.documentElement, q = s.querySelector('meta[name="viewport"]'), p = s.querySelector('meta[name="flexible"]');
     if (q) {
-        //console.warn("将根据已有的meta标签来设置缩放比例");
+        //console.warn("陆芦赂霉戮脻脪脩脫脨碌脛meta卤锚脟漏脌麓脡猫脰脙脣玫路脜卤脠脌媒");
         var o = q.getAttribute("content").match(/initial\-scale=(["']?)([\d\.]+)\1?/);
         o && (u = parseFloat(o[2]), v = parseInt(1 / u))
     } else {
@@ -40,5 +40,5 @@
         s.body.style.fontSize = 12 * v + "px"
     }, !1), w();
 }(window);
-//兼容cmd
+//录忙脠脻cmd
 typeof define !== 'undefined' && define('modules/autofull',function (require, exports, module) {});
