@@ -1,4 +1,196 @@
+html {
+	font-size: 0;
+}
 body{
+	color: white;
+}
+.head{
+	width: 100%;
+	background: url(../image/head.jpg) no-repeat;
+	background-size: 100% 100%;
+	height: 7.8vh;
+}
+.head img{
+	width: 100%;
+}
+.section div:nth-child(2){
+	height: 92.2vh;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.music{
+	position: absolute;
+	top: 3%;
+	right: 4%;
+	width: 4vh;
+	height: auto;
+	animation:music 5s;
+	animation-iteration-count:infinite;
+	animation-timing-function: linear;
+}
+@keyframes music{
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}
+.scroll{
+	position: absolute;
+	bottom: 4vh;
+	animation: scroll 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	width: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+@keyframes scroll{
+	0% {opacity: 0}
+	50% {opacity: 1}
+	100% {opacity: 0}
+}
+.line{
+	position: absolute;
+	top: 1170px;
+	left: 66px;
+}
+.p1{
+	background-image: url(../image/p1.jpg);
+}
+.p1 .word{
+	margin-top: 15vh;
+	margin-left: 9vw;
+	animation: word 1s;
+	animation-iteration-count: 1;
+	height: 17vh;
+	width: auto;
+}
+@keyframes word{
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+.p2{
+	background-image: url(../image/p2.jpg);
+}
+.p2 .p2_word{
+	position: absolute;
+	opacity: 0;
+	right: 0;
+	height: 16.6vh;
+	bottom: 21.5vh;
+}
+.portrait{
+	position: absolute;
+	top: 1100px;
+	left: 76px;
+}
+@keyframes portrait{
+	0% {left: 76px}
+	100% {left: 263px}
+}
+.p3{
+	background-image: url(../image/p3.png);
+}
+.p3 .p3_1{
+	width: 53vw;
+	opacity: 0;
+	margin-top: 4vh;
+}
+.p3 .p3_2 {
+	padding-left: 53.8vw;
+	margin-top: 1.1vh;
+}
+.p3 .p3_2_bg{
+	opacity: 0;
+	width: 42.6vw;
+	height: 5.9vh;
+	background: url(../image/p3_2.png) no-repeat;
+	background-size: 100%;
+}
+.p3 .p3_2_txt{
+	font-size: 1.5vh;
+	padding-left: 4%;
+	padding-top: 1%;
+}
+
+.p3 .p3_3 {
+	padding-left: 3.3vw;
+	margin-top: 8.1vh;
+}
+.p3 .p3_3_bg{
+	opacity: 0;
+	width: 48.8vw;
+	height: 7.1vh;
+	background: url(../image/p3_3.png) no-repeat;
+	background-size: 100%;
+}
+.p3 .p3_3_txt{
+	font-size: 1.5vh;
+	padding-right: 8%;
+	padding-top: 5%;
+	float: right;
+}
+.p3 .p3_4 {
+	padding-left: 42.6vw;
+	margin-top: 5.4vh;
+}
+.p3 .p3_4_bg{
+	opacity: 0;
+	width: 53.3vw;
+	height: 7.4vh;
+	background: url(../image/p3_4.png) no-repeat;
+	background-size: 100%;
+}
+.p3 .p3_4_txt{
+	font-size: 1.5vh;
+	padding-left: 4%;
+	padding-top: 1%;
+}
+/*.p3 .p3_4{
+	opacity: 0;
+	position: absolute;
+	top: 670px;
+	left: 320px;
+}
+.p3 #p3_4{
+	font-size: 20px;
+	position: relative;
+	top: 265px;
+	left: 330px;
+}*/
+.p3 .p3_5{
+	opacity: 0;
+	position: absolute;
+	top: 830px;
+	left: 385px;
+}
+.p3 .p3_6{
+	opacity: 0;
+	position: absolute;
+	top: 900px;
+	left: 358px;
+}
+.p4{
+	display: none;
+	width: 100%;
+	height: 92%;
+	background-image: url(../image/p4.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 8%;
+	left: 0px;
+}
+.p4 .p4_exit{
+	position: absolute;
+	top: 40px;
+	right: 42px;
+}
+.p4 .p4_1{
+	position: absolute;
+	top: 140px;
+	left: 45px;
+}
+/*body{
 	color: white;
 }
 .head{
@@ -156,10 +348,10 @@ body{
 	position: absolute;
 	top: 140px;
 	left: 45px;
-}
+}*/
 .p5{
 	background-image: url(../image/p5.png);
-	 -webkit-filter:grayscale(100%);
+	 -webkit-filter:grayscale(0%);
 }
 .p5 .p5_1{
 	margin-top: 3vh;
@@ -172,4 +364,60 @@ body{
 }
 .p5 .portrait{
 	left: 263px;
+}
+.p6{
+	background-image: url(../image/p6.png);
+}
+.p6 .p6_1{
+	margin-top: 3vh;
+	opacity: 0;
+}
+.p6 .p6_2{
+	margin-top: 32vh;
+	opacity: 0;
+}
+.p6 .p6_3{
+	margin-top: 13vh;
+	margin-left: 5vh;
+	margin-right: 10vh;
+	opacity: 0;
+}
+.p6 .portrait{
+	margin-left: 46.5vw;
+}
+.p7{
+	background-image: url(../image/p7.png);
+}
+.p7 .p7_1{
+	margin-top: 3vh;
+	opacity: 0;
+}
+.p3 .p7_2 {
+	padding-left: 53.8vw;
+	margin-top: 1.1vh;
+}
+.p3 .p7_2_bg{
+	opacity: 0;
+	width: 42.6vw;
+	height: 5.9vh;
+	background: url(../image/p7_2.png) no-repeat;
+	background-size: inherit;
+}
+.p3 .p7_2_txt{
+	font-size: 20px;
+	padding-left: 4%;
+	padding-top: 1%;
+}
+.p7 .p7_3{
+	margin-top: 3vh;
+	margin-left: 3vw;
+	opacity: 0;
+}
+.p7 .p7_4{
+	margin-top: 3vh;
+	margin-left: 55vw;
+	opacity: 0;
+}
+.p7 .portrait{
+	margin-left: 46.5vw;
 }
