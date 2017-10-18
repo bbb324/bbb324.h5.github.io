@@ -9,17 +9,17 @@ $(function(){
     				$(".p3 .portrait").css({"animation" : "portrait 1s", "left" : "263px"})
 					$(".p3 .p3_1").css({"animation" : "word 1s", "opacity" : "1"})
 	    			setInterval(function() {
-					    $(".p3 .p3_2").css({"animation" : "word 1s", "opacity" : "1"})
+					    $(".p3 .p3_2_bg").css({"animation" : "word 1s", "opacity" : "1"})
 					    typing("p3_2", p3_str1)
 					}, 1000);
     				setInterval(function() {
-					    $(".p3 .p3_3").css({"animation" : "word 1s", "opacity" : "1"})
+					    $(".p3 .p3_3_bg").css({"animation" : "word 1s", "opacity" : "1"})
 					}, 2000);
 					setInterval(function(){
 						typing("p3_3", p3_str2)
 					}, 3000)
 					setInterval(function() {
-					    $(".p3 .p3_4").css({"animation" : "word 1s", "opacity" : "1"})
+					    $(".p3 .p3_4_bg").css({"animation" : "word 1s", "opacity" : "1"})
 					}, 3000);
 					setInterval(function(){
 						typing("p3_4", p3_str3)
@@ -45,9 +45,9 @@ $(function(){
     })
 });
 
-var p3_str1 = 'Gavin:</br>è¯·é—®æ‚¨æœ‰ä»€ä¹ˆè´¢å¯Œç›®æ ‡ï¼Ÿ'
-var p3_str2 = "æ—å…ˆç”Ÿ:</br>æˆ‘å¸Œæœ›åœ¨æˆ‘å¥³å„¿18å²ç”Ÿæ—¥çš„æ—¶å€™</br>èƒ½å¤Ÿä¸ºå¥¹æä¾›ç•™å­¦èµ„é‡‘ã€‚"
-var p3_str3 = "Gavin:</br>äº†è§£ï¼Œæ ¹æ®æ‚¨çš„éœ€æ±‚ï¼Œè¯·çœ‹padä¸Š</br>æˆ‘ä¸ºæ‚¨åº¦èº«å®šåšçš„èµ„äº§é…ç½®è§„åˆ’ã€‚"
+var p3_str1 = 'Gavin:</br>ÇëÎÊÄúÓĞÊ²Ã´²Æ¸»Ä¿±ê£¿'
+var p3_str2 = "ÎÒÏ£ÍûÔÚÎÒÅ®¶ù18ËêµÄÊ±ºò</br>ÄÜ¹»ÎªËıÌá¹©ÁôÑ§×Ê½ğ¡£"
+var p3_str3 = "Gavin:</br>ÁË½â£¬¸ù¾İÄúµÄĞèÇó£¬Çë¿´padÉÏ</br>ÎÒÎªÄúÁ¿Éí¶¨×öµÄ×Ê²úÅäÖÃ¹æ»®¡£"
 var i = 0;  
 
 function typing(divname, str){
