@@ -35,11 +35,11 @@ body{
 }
 .scroll{
 	position: absolute;
-	bottom: 4vh;
+	bottom: 5vh;
 	animation: scroll 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
-	width: 20px;
+	width: 40px;
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -50,8 +50,8 @@ body{
 }
 .line{
 	position: absolute;
-	top: 1170px;
-	left: 66px;
+	top: 80vh;
+	left: 9vw;
 }
 .p1{
 	background-image: url(../image/p1.jpg);
@@ -80,12 +80,16 @@ body{
 }
 .portrait{
 	position: absolute;
-	top: 1100px;
-	left: 76px;
+	top: 74.5vh;
+	left: 10.5vw;
 }
 @keyframes portrait{
-	0% {left: 76px}
-	100% {left: 263px}
+	0% {left: 10.5vw}
+	100% {left: 35.2vw}
+}
+@keyframes portrait_p5{
+	0% {left: 35.2vw}
+	100% {left: 57vw}
 }
 .p3{
 	background-image: url(../image/p3.png);
@@ -125,8 +129,8 @@ body{
 }
 .p3 .p3_3_txt{
 	font-size: 1.5vh;
-	padding-right: 8%;
-	padding-top: 5%;
+/*	padding-right: 8%;
+	padding-top: 5%;*/
 	float: right;
 }
 .p3 .p3_4 {
@@ -160,14 +164,14 @@ body{
 .p3 .p3_5{
 	opacity: 0;
 	position: absolute;
-	top: 830px;
-	left: 385px;
+	top: 55vh;
+	left: 52vw;
 }
 .p3 .p3_6{
 	opacity: 0;
 	position: absolute;
-	top: 900px;
-	left: 358px;
+	top: 60vh;
+	left: 48vw;
 }
 .p4{
 	display: none;
@@ -178,17 +182,17 @@ body{
 	background-size: 100% 100%;
 	position: absolute;
 	top: 8%;
-	left: 0px;
+	left: 0vw;
 }
 .p4 .p4_exit{
 	position: absolute;
-	top: 40px;
-	right: 42px;
+	top: 3vh;
+	right: 6vw;
 }
 .p4 .p4_1{
 	position: absolute;
-	top: 140px;
-	left: 45px;
+	top: 10vh;
+	left: 6vw;
 }
 /*body{
 	color: white;
@@ -363,7 +367,7 @@ body{
 	opacity: 0;
 }
 .p5 .portrait{
-	left: 263px;
+	left: 35.2vw;
 }
 .p6{
 	background-image: url(../image/p6.png);
@@ -386,37 +390,63 @@ body{
 	margin-left: 46.5vw;
 }
 .p7{
+	color: black;
 	background-image: url(../image/p7.png);
 }
 .p7 .p7_1{
 	margin-top: 3vh;
 	opacity: 0;
 }
-.p3 .p7_2 {
+.p7 .p7_2 {
 	padding-left: 53.8vw;
 	margin-top: 1.1vh;
 }
-.p3 .p7_2_bg{
+.p7 .p7_2_bg{
 	opacity: 0;
 	width: 42.6vw;
 	height: 5.9vh;
 	background: url(../image/p7_2.png) no-repeat;
-	background-size: inherit;
+	background-size: 100%;
+	padding: 0vh 1vh 1vh 1vh;
 }
-.p3 .p7_2_txt{
-	font-size: 20px;
+.p7 .p7_2_txt{
+	font-size: 1.5vh;
 	padding-left: 4%;
 	padding-top: 1%;
 }
-.p7 .p7_3{
-	margin-top: 3vh;
-	margin-left: 3vw;
-	opacity: 0;
+
+.p7 .p7_3 {
+	padding-left: 3.3vw;
+	margin-top: 8.1vh;
 }
-.p7 .p7_4{
-	margin-top: 3vh;
-	margin-left: 55vw;
+.p7 .p7_3_bg{
 	opacity: 0;
+	width: 48.8vw;
+	height: 8vh;
+	background: url(../image/p7_3.png) no-repeat;
+	background-size: 100%;
+	padding: 0vh 1vh 1vh 1vh;
+}
+.p7 .p7_3_txt{
+	font-size: 1.5vh;
+	padding-right: 8%;
+	float: right;
+}
+.p7 .p7_4 {
+	padding-left: 42.6vw;
+	margin-top: 5.4vh;
+}
+.p7 .p7_4_bg{
+	opacity: 0;
+	width: 53.3vw;
+	height: 7.4vh;
+	background: url(../image/p7_4.png) no-repeat;
+	background-size: 100%;
+}
+.p7 .p7_4_txt{
+	font-size: 1.5vh;
+	padding-left: 4%;
+	padding-top: 1%;
 }
 .p7 .portrait{
 	margin-left: 46.5vw;
