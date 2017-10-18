@@ -31,6 +31,13 @@ $(function(){
 					    $(".p3 .p3_5").css({"animation" : "word 1s", "opacity" : "1"})
 					}, 6000);
     				break;
+    			case 4:
+    				$(".p5 .portrait").css({"animation" : "portrait_p5 1s", "left" : "425px"})
+    				$(".p5 .p5_1").css({"animation" : "word 1s", "opacity" : "1"})
+    				setInterval(function(){
+    					$(".p5 .p5_2").css({"animation" : "word 1s", "opacity" : "1"})
+    				}, 1000)
+    				break;
 
     		}
     	}

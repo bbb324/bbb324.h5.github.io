@@ -77,6 +77,10 @@ body{
 	0% {left: 76px}
 	100% {left: 263px}
 }
+@keyframes portrait_p5{
+	0% {left: 263px}
+	100% {left: 425px}
+}
 .p3{
 	background-image: url(../image/p3.png);
 }
@@ -152,4 +156,20 @@ body{
 	position: absolute;
 	top: 140px;
 	left: 45px;
+}
+.p5{
+	background-image: url(../image/p5.png);
+	 -webkit-filter:grayscale(0%);
+}
+.p5 .p5_1{
+	margin-top: 3vh;
+	opacity: 0;
+}
+.p5 .p5_2{
+	margin-top: 37vh;
+	margin-left: 21vh;
+	opacity: 0;
+}
+.p5 .portrait{
+	left: 263px;
 }
