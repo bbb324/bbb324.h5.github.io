@@ -63,4 +63,5 @@ function typing(divname, str){
     else{  
         div.innerHTML = str;//结束打字,移除 _ 光标  
     }  
-}  
+}
+
