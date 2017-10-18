@@ -159,7 +159,7 @@ body{
 }
 .p5{
 	background-image: url(../image/p5.png);
-	 -webkit-filter:grayscale(0%);
+	 -webkit-filter:grayscale(100%);
 }
 .p5 .p5_1{
 	margin-top: 3vh;
