@@ -32,6 +32,7 @@ $(function(){
 					}, 14000);
     				break;
     			case 4:
+                    $(".p5 .p5_bg2").css({"animation" : "grayscale 2s", "animation-timing-function" : "linear", "-webkit-filter" : "grayscale(0%)"})
     				$(".p5 .portrait").css({"animation" : "portrait_p5 1s", "left" : "57vw"})
     				$(".p5 .p5_1").css({"animation" : "word 1s", "opacity" : "1"})
     				setInterval(function(){
@@ -63,6 +64,19 @@ $(function(){
 						typing("p7_4", p7_str3, 0)
 					}, 8000)
     				break;
+                case 7:
+                    $(".p8 .p8_1").css({"animation" : "word 1s", "opacity" : "1"})
+                    setInterval(function(){
+                        $(".p8 .p8_3").css({"animation" : "word 1s", "opacity" : "1"})
+                    }, 1000)
+                    break;
+                case 8:
+                    $(".p9 .portrait").css({"animation" : "portrait_p9 1s", "left" : "79.5vw"})
+                    $(".p9 .p9_1").css({"animation" : "word 1s", "opacity" : "1"})
+                    setInterval(function(){
+                        $(".p9 .p9_3").css({"animation" : "word 1s", "opacity" : "1"})
+                    }, 1000)
+                    break;
 
     		}
     	}
@@ -78,6 +92,13 @@ $(function(){
 
     $(".p6_3").click(function(){
     	$(".p6 .p6_2").css({"animation" : "word 1s", "opacity" : "1"})
+    })
+
+    $(".p8_3").click(function(){
+        $(".p8 .p8_2").css({"animation" : "word 1s", "opacity" : "1"})
+    })
+    $(".p9_3").click(function(){
+        $(".p9 .p9_2").css({"animation" : "word 1s", "opacity" : "1"})
     })    
 });
 
