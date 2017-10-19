@@ -365,6 +365,15 @@ body{
 	background-image: url(../image/p5.png);
 	 -webkit-filter:grayscale(0%);
 }*/
+.am{
+	animation: grayscale 2s;
+	animation-timing-function: linear;
+	-webkit-filter:grayscale(0%);	
+}
+.p5 .music, .p5 .scroll, .p5 .portrait, .p5 .line, .p5 .p5_bg2{
+	-webkit-filter:grayscale(100%);
+}
+
 .p5 .p5_bg1{
 	height: 63vh;
 	position: absolute;
@@ -375,7 +384,6 @@ body{
 .p5 .p5_bg2{
 	position: absolute;
 	height: 100%;
-	-webkit-filter:grayscale(100%);
 	z-index: 0;
 }
 .p5 .p5_1{

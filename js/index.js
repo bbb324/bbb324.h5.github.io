@@ -32,7 +32,7 @@ $(function(){
 					}, 14000);
     				break;
     			case 4:
-                    $(".p5 .p5_bg2").css({"animation" : "grayscale 2s", "animation-timing-function" : "linear", "-webkit-filter" : "grayscale(0%)"})
+                    $(".p5 .music, .p5 .scroll, .p5 .portrait, .p5 .line, .p5 .p5_bg2").addClass("am")
     				$(".p5 .portrait").css({"animation" : "portrait_p5 1s", "left" : "57vw"})
     				$(".p5 .p5_1").css({"animation" : "word 1s", "opacity" : "1"})
     				setInterval(function(){
