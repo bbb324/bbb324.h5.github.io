@@ -77,6 +77,9 @@ $(function(){
                         $(".p9 .p9_3").css({"animation" : "word 1s", "opacity" : "1"})
                     }, 1000)
                     break;
+                case 9:
+                    $(".p10 .p10_1").css({"animation" : "word 1s", "opacity" : "1"})
+                    break;
 
     		}
     	}
