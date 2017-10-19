@@ -6,46 +6,60 @@ $(function(){
     				$(".p2 .p2_word").css({"animation" : "word 1s", "opacity" : "1"})
     				break;
     			case 3:
-    				$(".p3 .portrait").css({"animation" : "portrait 1s", "left" : "35.2vw"})
-					$(".p3 .p3_1").css({"animation" : "word 1s", "opacity" : "1"})
-	    			setTimeout(function() {
-					    $(".p3 .p3_2_bg").css({"animation" : "word 1s", "opacity" : "1"})
-					    typing("p3_2_speak", p3_str1, 0)
-					}, 1000);
-					setTimeout(function() {
-					    $(".p3 .p3_3_bg").css({"animation" : "word 1s", "opacity" : "1"})
-					}, 3500);
-					setTimeout(function(){
-						typing("p3_3_speak", p3_str2, 0)
-					}, 4000)
-					setTimeout(function() {
-					    $(".p3 .p3_4_bg").css({"animation" : "word 1s", "opacity" : "1"})
-					}, 7000);
-					setTimeout(function(){
-						typing("p3_4_speak", p3_str3, 0)
-					}, 8000)
-					setTimeout(function() {
-					    $(".p3 .p3_6").css({"animation" : "word 1s", "opacity" : "1"})
-					}, 13000);
-					setTimeout(function() {
-					    $(".p3 .p3_5").css({"animation" : "word 1s", "opacity" : "1"})
-					}, 14000);
+    				$(".p3 .portrait").css({"animation" : "portrait 1s", "left" : "36vw"})
+                    $(".p3 .p3_1").css({"animation" : "word 1s", "opacity" : "1"})
+                    setTimeout(function() {
+                        $(".p3 .p3_2_bg").css({"animation" : "word 1s", "opacity" : "1"})
+                        typing("p3_2_speak", p3_str1, 0)
+                    }, 1000);
+                    setTimeout(function() {
+                        $(".p3 .p3_3_bg").css({"animation" : "word 1s", "opacity" : "1"})
+                    }, 3500);
+                    setTimeout(function(){
+                        typing("p3_3_speak", p3_str2, 0)
+                    }, 4000)
+                    setTimeout(function() {
+                        $(".p3 .p3_4_bg").css({"animation" : "word 1s", "opacity" : "1"})
+                    }, 7000);
+                    setTimeout(function(){
+                        typing("p3_4_speak", p3_str3, 0)
+                    }, 8000)
+                    setTimeout(function() {
+                        $(".p3 .p3_6").css({"animation" : "word 1s", "opacity" : "1"})
+                    }, 13000);
+                    setTimeout(function() {
+                        $(".p3 .p3_5").css({"animation" : "word 1s", "opacity" : "1"})
+                    }, 14000);
     				break;
     			case 4:
-                    $(".p5 .p5_bg2").css({"animation" : "grayscale 2s", "animation-timing-function" : "linear", "-webkit-filter" : "grayscale(0%)"})
-    				$(".p5 .portrait").css({"animation" : "portrait_p5 1s", "left" : "57vw"})
+                    $(".p5 .line, .p5 .p5_bg2").addClass("grayscale_animation")
+                    $(".p5 .music").addClass("music_animation")
+                    $(".p5 .scroll").addClass("scroll_animation")
+    				$(".p5 .portrait").addClass("portrait_animation_p5")
+                    $(".p5 .portrait").css("left", "58vw")
+                    $(".p5 .music, .p5 .scroll, .p5 .portrait, .p5 .line, .p5 .p5_bg2").css("-webkit-filter", "grayscale(0%)")
     				$(".p5 .p5_1").css({"animation" : "word 1s", "opacity" : "1"})
     				setInterval(function(){
     					$(".p5 .p5_2").css({"animation" : "word 1s", "opacity" : "1"})
     				}, 1000)
     				break;
     			case 5:
+                    $(".p6 .line, .p6 .p6_bg2").addClass("grayscale_animation")
+                    $(".p6 .music").addClass("music_animation")
+                    $(".p6 .scroll").addClass("scroll_animation")
+                    $(".p6 .portrait").addClass("grayscale_animation")
+                    $(".p6 .music, .p6 .scroll, .p6 .portrait, .p6 .line, .p6 .p6_bg2").css("-webkit-filter", "grayscale(0%)")
     				$(".p6 .p6_1").css({"animation" : "word 1s", "opacity" : "1"})
     				setInterval(function(){
     					$(".p6 .p6_3").css({"animation" : "word 1s", "opacity" : "1"})
     				}, 1000)
     				break;
     			case 6:
+                    $(".p7 .line, .p7 .p7_bg2").addClass("grayscale_animation")
+                    $(".p7 .music").addClass("music_animation")
+                    $(".p7 .scroll").addClass("scroll_animation")
+                    $(".p7 .portrait").addClass("grayscale_animation")
+                    $(".p7 .music, .p7 .scroll, .p7 .portrait, .p7 .line, .p7 .p7_bg2").css("-webkit-filter", "grayscale(0%)")
 					$(".p7 .p7_1").css({"animation" : "word 1s", "opacity" : "1"})
 	    			setTimeout(function() {
 					    $(".p7 .p7_2_bg").css({"animation" : "word 1s", "opacity" : "1"})
@@ -65,17 +79,28 @@ $(function(){
 					}, 8000)
     				break;
                 case 7:
+                    $(".p8 .line, .p8 .p8_bg2").addClass("grayscale_animation")
+                    $(".p8 .music").addClass("music_animation")
+                    $(".p8 .scroll").addClass("scroll_animation")
+                    $(".p8 .portrait").addClass("grayscale_animation")
+                    $(".p8 .music, .p8 .scroll, .p8 .portrait, .p8 .line, .p8 .p8_bg2").css("-webkit-filter", "grayscale(0%)")
                     $(".p8 .p8_1").css({"animation" : "word 1s", "opacity" : "1"})
                     setInterval(function(){
                         $(".p8 .p8_3").css({"animation" : "word 1s", "opacity" : "1"})
                     }, 1000)
                     break;
                 case 8:
-                    $(".p9 .portrait").css({"animation" : "portrait_p9 1s", "left" : "79.5vw"})
+                    $(".p9 .portrait").css({"animation" : "portrait_p9 1s", "left" : "80vw"})
                     $(".p9 .p9_1").css({"animation" : "word 1s", "opacity" : "1"})
                     setInterval(function(){
                         $(".p9 .p9_3").css({"animation" : "word 1s", "opacity" : "1"})
                     }, 1000)
+                    break;
+                case 9:
+                    $(".p10 .p10_1").css({"animation" : "word 1s", "opacity" : "1"})
+                    break;
+                case 10:
+                    $(".p11 .p11_1").css({"animation" : "word 1s", "opacity" : "1"})
                     break;
 
     		}
