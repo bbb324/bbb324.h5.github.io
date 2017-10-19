@@ -31,6 +31,52 @@ $(function(){
 					    $(".p3 .p3_5").css({"animation" : "word 1s", "opacity" : "1"})
 					}, 14000);
     				break;
+    			case 4:
+                    $(".p5 .p5_bg2").css({"animation" : "grayscale 2s", "animation-timing-function" : "linear", "-webkit-filter" : "grayscale(0%)"})
+    				$(".p5 .portrait").css({"animation" : "portrait_p5 1s", "left" : "57vw"})
+    				$(".p5 .p5_1").css({"animation" : "word 1s", "opacity" : "1"})
+    				setInterval(function(){
+    					$(".p5 .p5_2").css({"animation" : "word 1s", "opacity" : "1"})
+    				}, 1000)
+    				break;
+    			case 5:
+    				$(".p6 .p6_1").css({"animation" : "word 1s", "opacity" : "1"})
+    				setInterval(function(){
+    					$(".p6 .p6_3").css({"animation" : "word 1s", "opacity" : "1"})
+    				}, 1000)
+    				break;
+    			case 6:
+					$(".p7 .p7_1").css({"animation" : "word 1s", "opacity" : "1"})
+	    			setTimeout(function() {
+					    $(".p7 .p7_2_bg").css({"animation" : "word 1s", "opacity" : "1"})
+					    typing("p7_2", p7_str1, 0)
+					}, 1000);
+					setTimeout(function() {
+					    $(".p7 .p7_3_bg").css({"animation" : "word 1s", "opacity" : "1"})
+					}, 3500);
+					setTimeout(function(){
+						typing("p7_3", p7_str2, 0)
+					}, 4000)
+					setTimeout(function() {
+					    $(".p7 .p7_4_bg").css({"animation" : "word 1s", "opacity" : "1"})
+					}, 7000);
+					setTimeout(function(){
+						typing("p7_4", p7_str3, 0)
+					}, 8000)
+    				break;
+                case 7:
+                    $(".p8 .p8_1").css({"animation" : "word 1s", "opacity" : "1"})
+                    setInterval(function(){
+                        $(".p8 .p8_3").css({"animation" : "word 1s", "opacity" : "1"})
+                    }, 1000)
+                    break;
+                case 8:
+                    $(".p9 .portrait").css({"animation" : "portrait_p9 1s", "left" : "79.5vw"})
+                    $(".p9 .p9_1").css({"animation" : "word 1s", "opacity" : "1"})
+                    setInterval(function(){
+                        $(".p9 .p9_3").css({"animation" : "word 1s", "opacity" : "1"})
+                    }, 1000)
+                    break;
 
     		}
     	}
@@ -43,12 +89,26 @@ $(function(){
     $(".p4_exit").click(function(){
     	$(".p4").css("display", "none")
     })
+
+    $(".p6_3").click(function(){
+    	$(".p6 .p6_2").css({"animation" : "word 1s", "opacity" : "1"})
+    })
+
+    $(".p8_3").click(function(){
+        $(".p8 .p8_2").css({"animation" : "word 1s", "opacity" : "1"})
+    })
+    $(".p9_3").click(function(){
+        $(".p9 .p9_2").css({"animation" : "word 1s", "opacity" : "1"})
+    })    
 });
 
 var p3_str1 = 'Gavin:</br>请问您有什么财富目标？'
-var p3_str2 = '我希望在我女儿18岁的时候</br>能够为她提供留学资金。'
-var p3_str3 = 'Gavin:</br>了解，根据您的需求，请看pad上</br>我为您量身定做的资产配置规划。'
+var p3_str2 = "林先生:</br>我希望在我女儿18岁生日的时候</br>能够为她提供留学资金。"
+var p3_str3 = "Gavin:</br>了解，根据您的需求，请看pad上</br>我为您度身定做的资产配置规划。"
 
+var p7_str1 = "Julie:</br>顺利抵达美国，花旗账户</br>已经开好啦～"
+var p7_str2 = "林先生:</br>好的宝贝。我刚刚把生活费</br>打到你账上了。遇到什么问</br>题随时和我或你妈妈说。"
+var p7_str3 = "Julie:</br>转账收到！谢谢爸爸！"
 
 function typing(divname, str, i){
     var div = document.getElementById(divname);
