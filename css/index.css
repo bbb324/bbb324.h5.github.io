@@ -33,6 +33,11 @@ body{
 	animation-iteration-count:infinite;
 	animation-timing-function: linear;
 }
+.music_animation{
+	animation:music 5s, grayscale 2s;
+	animation-iteration-count:infinite, 1;
+	animation-timing-function: linear, linear;
+}
 @keyframes music{
 	0% {transform: rotate(0deg);}
 	100% {transform: rotate(360deg);}
@@ -46,6 +51,11 @@ body{
 	width: 40px;
 	left: 50%;
 	transform: translateX(-50%);
+}
+.scroll_animation{
+	animation: scroll 3s, grayscale 2s;
+	animation-iteration-count: infinite, 1;
+	animation-timing-function: linear, linear;
 }
 @keyframes scroll{
 	0% {opacity: 0}
@@ -86,6 +96,11 @@ body{
 	position: absolute;
 	top: 74.5vh;
 	left: 10.5vw;
+}
+.portrait_animation_p5{
+	animation: portrait_p5 1s, grayscale 2s;
+	animation-iteration-count: 1, 1;
+	animation-timing-function: linear, linear;
 }
 @keyframes portrait{
 	0% {left: 10.5vw}
@@ -365,15 +380,16 @@ body{
 	background-image: url(../image/p5.png);
 	 -webkit-filter:grayscale(0%);
 }*/
-.am{
-	animation: grayscale 2s;
-	animation-timing-function: linear;
-	-webkit-filter:grayscale(0%);	
-}
 .p5 .music, .p5 .scroll, .p5 .portrait, .p5 .line, .p5 .p5_bg2{
 	-webkit-filter:grayscale(100%);
 }
-
+.grayscale{
+	-webkit-filter:grayscale(0%);
+}
+.p5_animation{
+	animation: grayscale 2s;
+	animation-timing-function: linear;
+}
 .p5 .p5_bg1{
 	height: 63vh;
 	position: absolute;

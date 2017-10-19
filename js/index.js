@@ -32,8 +32,12 @@ $(function(){
 					}, 14000);
     				break;
     			case 4:
-                    $(".p5 .music, .p5 .scroll, .p5 .portrait, .p5 .line, .p5 .p5_bg2").addClass("am")
-    				$(".p5 .portrait").css({"animation" : "portrait_p5 1s", "left" : "57vw"})
+                    $(".p5 .line, .p5 .p5_bg2").addClass("p5_animation")
+                    $(".p5 .music").addClass("music_animation")
+                    $(".p5 .scroll").addClass("scroll_animation")
+    				$(".p5 .portrait").addClass("portrait_animation_p5")
+                    $(".p5 .portrait").css("left", "57vw")
+                    $(".p5 .music, .p5 .scroll, .p5 .portrait, .p5 .line, .p5 .p5_bg2").css("-webkit-filter", "grayscale(0%)")
     				$(".p5 .p5_1").css({"animation" : "word 1s", "opacity" : "1"})
     				setInterval(function(){
     					$(".p5 .p5_2").css({"animation" : "word 1s", "opacity" : "1"})
