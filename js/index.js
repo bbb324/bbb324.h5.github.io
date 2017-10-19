@@ -45,9 +45,9 @@ $(function(){
     })
 });
 
-var p3_str1 = 'Gavin:</br>ÇëÎÊÄúÓĞÊ²Ã´²Æ¸»Ä¿±ê£¿'
-var p3_str2 = 'ÎÒÏ£ÍûÔÚÎÒÅ®¶ù18ËêµÄÊ±ºò</br>ÄÜ¹»ÎªËıÌá¹©ÁôÑ§×Ê½ğ¡£'
-var p3_str3 = 'Gavin:</br>ÁË½â£¬¸ù¾İÄúµÄĞèÇó£¬Çë¿´padÉÏ</br>ÎÒÎªÄúÁ¿Éí¶¨×öµÄ×Ê²úÅäÖÃ¹æ»®¡£'
+var p3_str1 = 'Gavin:</br>è¯·é—®æ‚¨æœ‰ä»€ä¹ˆè´¢å¯Œç›®æ ‡ï¼Ÿ'
+var p3_str2 = 'æˆ‘å¸Œæœ›åœ¨æˆ‘å¥³å„¿18å²çš„æ—¶å€™</br>èƒ½å¤Ÿä¸ºå¥¹æä¾›ç•™å­¦èµ„é‡‘ã€‚'
+var p3_str3 = 'Gavin:</br>äº†è§£ï¼Œæ ¹æ®æ‚¨çš„éœ€æ±‚ï¼Œè¯·çœ‹padä¸Š</br>æˆ‘ä¸ºæ‚¨é‡èº«å®šåšçš„èµ„äº§é…ç½®è§„åˆ’ã€‚'
 
 
 function typing(divname, str, i){
@@ -55,13 +55,13 @@ function typing(divname, str, i){
 
     if (i <=  str.length) {  
         div.innerHTML = str.slice(0, i++) + '_';  
-        // setTimeout("typing()", 200);//é€’å½’è°ƒç”¨ 
+        // setTimeout("typing()", 200);//é–«æ‘ç¶Šç’‹å†ªæ•¤ 
         setTimeout(function(){
         	typing(divname, str, i)
         }, 100)
     }  
     else{
-        div.innerHTML = str;//ç»“æŸæ‰“å­—,ç§»é™¤ _ å…‰æ ‡  
+        div.innerHTML = str;//ç¼æ’´æ½«éµæ’³ç“§,ç»‰å©šæ« _ éå¤‹çˆ£  
     }  
 }
 
