@@ -10,19 +10,19 @@ $(function(){
 					$(".p3 .p3_1").css({"animation" : "word 1s", "opacity" : "1"})
 	    			setTimeout(function() {
 					    $(".p3 .p3_2_bg").css({"animation" : "word 1s", "opacity" : "1"})
-					    typing("p3_2", p3_str1, 0)
+					    typing("p3_2_speak", p3_str1, 0)
 					}, 1000);
 					setTimeout(function() {
 					    $(".p3 .p3_3_bg").css({"animation" : "word 1s", "opacity" : "1"})
 					}, 3500);
 					setTimeout(function(){
-						typing("p3_3", p3_str2, 0)
+						typing("p3_3_speak", p3_str2, 0)
 					}, 4000)
 					setTimeout(function() {
 					    $(".p3 .p3_4_bg").css({"animation" : "word 1s", "opacity" : "1"})
 					}, 7000);
 					setTimeout(function(){
-						typing("p3_4", p3_str3, 0)
+						typing("p3_4_speak", p3_str3, 0)
 					}, 8000)
 					setTimeout(function() {
 					    $(".p3 .p3_6").css({"animation" : "word 1s", "opacity" : "1"})
@@ -102,9 +102,9 @@ $(function(){
     })    
 });
 
-var p3_str1 = 'Gavin:</br>请问您有什么财富目标？'
-var p3_str2 = "林先生:</br>我希望在我女儿18岁生日的时候</br>能够为她提供留学资金。"
-var p3_str3 = "Gavin:</br>了解，根据您的需求，请看pad上</br>我为您度身定做的资产配置规划。"
+var p3_str1 = '请问您有什么财富目标？'
+var p3_str2 = '我希望在我女儿18岁生日的时候能够为她提供留学资金。'
+var p3_str3 = "了解，根据您的需求，请看pad上</br>我为您度身定做的资产配置规划。"
 
 var p7_str1 = "Julie:</br>顺利抵达美国，花旗账户</br>已经开好啦～"
 var p7_str2 = "林先生:</br>好的宝贝。我刚刚把生活费</br>打到你账上了。遇到什么问</br>题随时和我或你妈妈说。"
