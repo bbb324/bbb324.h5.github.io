@@ -43,12 +43,12 @@ body{
 	100% {transform: rotate(360deg);}
 }
 .scroll{
+	width: 5vw;
 	position: absolute;
 	bottom: 5vh;
 	animation: scroll 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
-	width: 40px;
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -296,14 +296,16 @@ body{
 	left: 0vw;
 }
 .p4 .p4_exit{
+	width: 8vw;
 	position: absolute;
 	top: 3vh;
 	right: 6vw;
 }
 .p4 .p4_1{
+	width: 80vw;
 	position: absolute;
 	top: 10vh;
-	left: 6vw;
+	left: 10vw;
 }
 .p5 .music, .p5 .scroll, .p5 .portrait, .p5 .line, .p5 .p5_bg2{
 	-webkit-filter:grayscale(100%);
@@ -331,15 +333,17 @@ body{
 	z-index: 0;
 }
 .p5 .p5_1{
+	width: 50vw;
 	position: absolute;
 	margin-top: 3vh;
 	opacity: 0;
 	z-index: 1;
 }
 .p5 .p5_2{
+	width: 50vw;
 	position: absolute;
 	margin-top: 60vh;
-	margin-left: 21vh;
+	margin-left: 50vw;
 	opacity: 0;
 	z-index: 1;
 }
@@ -367,18 +371,21 @@ body{
 	z-index: 0;
 }
 .p6 .p6_1{
+	width: 50vw;
 	position: absolute;
 	margin-top: 3vh;
 	opacity: 0;
 	z-index: 1;
 }
 .p6 .p6_2{
+	width: 50vw;
 	position: absolute;
 	margin-top: 55vh;
 	opacity: 0;
 	z-index: 1;
 }
 .p6 .p6_3{
+	width: 20vw;
 	position: absolute;
 	margin-top: 82vh;
 	margin-left: 5vh;
@@ -411,6 +418,7 @@ body{
 	z-index: 0;
 }
 .p7 .p7_1{
+	width: 57.6vw;
 	position: absolute;
 	margin-top: 3vh;
 	opacity: 0;
@@ -497,20 +505,23 @@ body{
 	z-index: 0;
 }
 .p8 .p8_1{
+	width: 50vw;
 	position: absolute;
 	margin-top: 3vh;
 	opacity: 0;
 	z-index: 1;
 }
 .p8 .p8_2{
+	width: 50vw;
 	position: absolute;
     margin-top: 40vh;
     opacity: 0;
     z-index: 1;
 }
 .p8 .p8_3{
+	width: 20vw;
 	position: absolute;
-    margin: 82vh 10vh 0vh 5vh;
+    margin: 82vh 10vw 0vh 10vw;
     opacity: 0;
     z-index: 1;
 }
@@ -521,18 +532,21 @@ body{
 	background-image: url(../image/p9.png);
 }
 .p9 .p9_1{
+	width: 50vw;
 	margin-top: 3vh;
 	opacity: 0;
 }
 .p9 .p9_2{
+	width: 50vw;
 	margin-top: 20vh;
 	margin-left: 52vw;
 	opacity: 0;
 }
 .p9 .p9_3{
+	width: 20vw;
 	margin-top: 12vh;
-	margin-left: 5vh;
-	margin-right: 10vh;
+	margin-left: 10vw;
+	margin-right: 10vw;
 	opacity: 0;
 }
 .p9 .portrait{
@@ -542,6 +556,7 @@ body{
 	background-image: url(../image/p10.png);
 }
 .p10 .p10_1{
+	width: 80vw;
 	margin-top: 20vh;
 	margin-left: 11vw;
 	opacity: 0;
