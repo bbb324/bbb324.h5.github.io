@@ -26,8 +26,8 @@ body{
 .music{
 	position: absolute;
 	top: 3%;
-	right: 4%;
-	width: 4vh;
+	right: 8vw;
+	width: 8vw;
 	height: auto;
 	animation:music 5s;
 	animation-iteration-count:infinite;
