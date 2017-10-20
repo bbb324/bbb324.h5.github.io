@@ -34,6 +34,11 @@ body{
 	animation-iteration-count:infinite;
 	animation-timing-function: linear;
 }
+.music_play{
+	animation:music 5s;
+	animation-iteration-count:infinite;
+	animation-timing-function: linear;
+}
 .music_animation{
 	animation:music 5s, grayscale 3s;
 	animation-iteration-count:infinite, 1;

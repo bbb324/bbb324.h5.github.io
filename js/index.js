@@ -125,6 +125,17 @@ $(function(){
     })
     $(".p9_3").click(function(){
         $(".p9 .p9_2").css({"animation" : "word 1s", "opacity" : "1"})
+    })
+
+    var isPlaying = false;
+    $(".music").click(function(){
+        if (isPlaying) {
+            $(".music").css("animation", "none");
+            isPlaying = false;
+        }else{
+            $("music").addClass("music_play");
+            isPlaying = true;
+        }
     })    
 });
 
