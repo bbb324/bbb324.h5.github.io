@@ -128,12 +128,15 @@ $(function () {
   })
 
   var isPlaying = true;
+  var player = $(".audio")[0]
     $(".music").click(function(){
         if (isPlaying) {
             $(".music").css("animation", "none");
+            player.pause();
             isPlaying = false;
         }else{
             $(".music").css({"animation" : "music 5s", "animation-iteration-count" : "infinite", "animation-timing-function" : "linear"});
+            player.play();
             isPlaying = true;
         }
     }) 
