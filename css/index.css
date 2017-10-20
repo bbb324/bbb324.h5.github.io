@@ -281,19 +281,18 @@ body{
 	animation-timing-function: linear;
 }
 .p5 .p5_bg1{
-	width: 57vw;
-	height: 70vh;
-	position: absolute;
-	top: 10vh;
-	left: 44vw;
-	z-index: 0;
+	width: 101vw;
+    height: 95vh;
+    position: absolute;
+    top: -3vh;
+    left: 22vw;
+    z-index: 0;
 }
 .p5 .p5_bg2{
 	width: 100%;
-	height: 110vh;
+	height: 100%;
 	position: absolute;
 	z-index: 0;
-	margin-top: -19vh;
 }
 .p5 .p5_1{
 	width: 50vw;
