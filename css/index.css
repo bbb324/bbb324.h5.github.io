@@ -474,13 +474,11 @@ body{
 	}
 	.p7 .p7_2_bg{
 		opacity: 0;
-		width: 47vw;
+		width: 53vw;
 		float: right;
-		margin-right: 13px;
 	}
 	.p7 .manager {
 		width: 9vw;
-		float: right;
 	}
 	.p7 .p7_2 .p7_2_txt{
 		font-size: 8px;
@@ -488,9 +486,10 @@ body{
 		background-size: 100%;
 		display: inline-flex;
 		align-items: center;
-		width: 33.6vw;
-		height: 5vh;
+		width: 39vw;
+		height: 7vh;
 		padding: 1vh 1vh 1vh 1vh;
+		margin-right: 10vw;
 	}
 	.p7 .p7_3 {
 		position: absolute;
@@ -500,9 +499,8 @@ body{
 	}
 	.p7 .p7_3_bg{
 		opacity: 0;
-		width: 52vw;
+		width: 70vw;
 		background-size: 100%;
-		margin-left: 13px;
 	}
 	.p7 .p7_3 .p7_3_txt {
 		font-size: 8px;
@@ -510,37 +508,13 @@ body{
 		background-size: 100%;
 		display: inline-flex;
 		align-items: center;
-		width: 39.3vw;
-		height: 7vh;
+		width: 48vw;
+		height: 9vh;
+		margin-left: 10vw;
 		padding: 1vh 1vh 1vh 1vh;
 	}
-
-	.p7 .p7_3_bg .avator-fd {
-		float: left;
-		width: 9vw;
-	}
-
-	.p7 .p7_4 {
-		position: absolute;
-		z-index: 1;
-		margin-top: 5.4vh;
-		overflow: -webkit-paged-x;
-	}
 	.p7 .p7_4_bg{
-		opacity: 0;
-		width: 45vw;
-		float: right;
-		margin-left: 52vw;
-	    margin-top: 40vh;
-
-	}
-	.p7 .p7_4 .p7_4_txt{
-		font-size: 8px;
-		background: url(../image/p7_dialog-right-2.png) no-repeat;
-		background-size: 100%;
-		display: inline-flex;
-		align-items: center;
-		width: 35vw;
+	    margin-top: 50vh;
 	}
 }
 .p8 .music, .p8 .portrait, .p8 .line, .p8 .scroll, .p8 .p8_bg2{
