@@ -13,7 +13,7 @@
 </head>
 <body>
 <div id="fullpage">
-    <audio class="audio" autoplay="autoplay" loop="loop" src="audio/1.Mp3"></audio>
+    <audio class="audio" autoplay="true" loop="loop" src="audio/1.Mp3"></audio>
     <div class="section">
         <div class="head"></div>
         <div class="p1">
@@ -224,5 +224,10 @@
         </div>
     </div>
 </div>
+<script>
+  document.addEventListener("WeixinJSBridgeReady", function () {
+    $('.audio')[0].play();
+  }, false);
+</script>
 </body>
 </html>

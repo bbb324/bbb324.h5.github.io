@@ -84,7 +84,7 @@ $(function () {
           $(".p8 .music").addClass("music_animation")
           $(".p8 .scroll").addClass("scroll_animation")
           $(".p8 .portrait").addClass("grayscale_animation")
-          $(".p8 .music, .p8 .scroll, .p8 .portrait, .p8 .line, .p8 .p8_bg2, .p8 SP8").css("-webkit-filter", "grayscale(0%)")
+          $(".p8 .music, .p8 .scroll, .p8 .portrait, .p8 .line, .p8 .p8_bg2, .p8 .SP8").css("-webkit-filter", "grayscale(0%)")
           $(".p8 .p8_1").css({"animation": "word 1s", "opacity": "1"})
           setInterval(function () {
             $(".p8 .p8_3").css({"animation": "word 1s", "opacity": "1"})
