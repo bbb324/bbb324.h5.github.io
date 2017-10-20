@@ -466,55 +466,24 @@ body{
 }
 @media screen and (min-width: 355px) and (max-width: 365px){
 	.p7 .p7_2 {
-		position: absolute;
-		z-index: 1;
-		overflow: -webkit-paged-x;
-		margin-top: 22vh;
-	    margin-left: 50vw;
-	}
-	.p7 .p7_2_bg{
-		opacity: 0;
-		width: 53vw;
-		float: right;
-	}
-	.p7 .manager {
-		width: 9vw;
+		margin-top: 23vh;
 	}
 	.p7 .p7_2 .p7_2_txt{
-		font-size: 8px;
-		background: url(../image/p7_dialog-right.png) no-repeat;
-		background-size: 100%;
-		display: inline-flex;
-		align-items: center;
 		width: 39vw;
 		height: 7vh;
-		padding: 1vh 1vh 1vh 1vh;
-		margin-right: 10vw;
 	}
 	.p7 .p7_3 {
-		position: absolute;
-		z-index: 1;
-		margin-top: 32vh;
-		clear: both;
+		margin-top: 35vh;
 	}
 	.p7 .p7_3_bg{
-		opacity: 0;
 		width: 70vw;
-		background-size: 100%;
 	}
 	.p7 .p7_3 .p7_3_txt {
-		font-size: 8px;
-		background: url('../image/p7_dialog-left.png') no-repeat;
-		background-size: 100%;
-		display: inline-flex;
-		align-items: center;
 		width: 48vw;
 		height: 9vh;
-		margin-left: 10vw;
-		padding: 1vh 1vh 1vh 1vh;
 	}
 	.p7 .p7_4_bg{
-	    margin-top: 50vh;
+	    margin-top: 45vh;
 	}
 }
 .p8 .music, .p8 .portrait, .p8 .line, .p8 .scroll, .p8 .p8_bg2{
