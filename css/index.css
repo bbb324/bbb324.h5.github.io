@@ -46,7 +46,7 @@ body{
 	left: 66px;
 }
 .p1{
-	background-image: url(../image/p1.jpg);
+	background-image: url(../image/p1.png);
 }
 .p1 .word{
 	position: relative;
@@ -60,7 +60,7 @@ body{
 	100% {opacity: 1}
 }
 .p2{
-	background-image: url(../image/p2.jpg);
+	background-image: url(../image/p2.png);
 }
 .p2 .p2_word{
 	position: relative;
