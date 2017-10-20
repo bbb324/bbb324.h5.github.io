@@ -78,23 +78,6 @@ $(function(){
                     setTimeout(function(){
                         typing("p7_4_speak", p7_str3, 0)
                     }, 8000)
-
-	    // 			setTimeout(function() {
-					//     $(".p7 .p7_2_bg").css({"animation" : "word 1s", "opacity" : "1"})
-					//     typing("p7_2", p7_str1, 0)
-					// }, 1000);
-					// setTimeout(function() {
-					//     $(".p7 .p7_3_bg").css({"animation" : "word 1s", "opacity" : "1"})
-					// }, 3500);
-					// setTimeout(function(){
-					// 	typing("p7_3", p7_str2, 0)
-					// }, 4000)
-					// setTimeout(function() {
-					//     $(".p7 .p7_4_bg").css({"animation" : "word 1s", "opacity" : "1"})
-					// }, 7000);
-					// setTimeout(function(){
-					// 	typing("p7_4", p7_str3, 0)
-					// }, 8000)
     				break;
                 case 7:
                     $(".p8 .line, .p8 .p8_bg2").addClass("grayscale_animation")
