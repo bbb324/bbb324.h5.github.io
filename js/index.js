@@ -126,6 +126,21 @@ $(function () {
   $(".p9_3").click(function () {
     $(".p9 .p9_2").css({"animation": "word 1s", "opacity": "1"})
   })
+
+  var isPlaying = true;
+  var player = $(".audio")[0]
+    $(".music").click(function(){
+        if (isPlaying) {
+            $(".music").css("animation", "none");
+            player.pause();
+            isPlaying = false;
+        }else{
+            $(".music").css({"animation" : "music 5s", "animation-iteration-count" : "infinite", "animation-timing-function" : "linear"});
+            player.play();
+            isPlaying = true;
+        }
+    }) 
+
 });
 
 var p3_str1 = '请问您有什么财富目标？'
@@ -166,3 +181,4 @@ function movelineInP8() {
 
   $(".p9 .SP9").css({"animation": "squareSP4 1s ease", "left": "91%"})
 }
+
