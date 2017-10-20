@@ -259,7 +259,7 @@ body{
 	top: 10vh;
 	left: 10vw;
 }
-.p5 .music, .p5 .scroll, .p5 .portrait, .p5 .line, .p5 .p5_bg2{
+.p5 .music, .p5 .scroll, .p5 .portrait, .p5 .line, .p5 .p5_bg2, .p5 .SP5{
 	-webkit-filter:grayscale(100%);
 }
 .grayscale{
@@ -301,7 +301,7 @@ body{
 .p5 .portrait{
 	left: 35.2vw;
 }
-.p6 .music, .p6 .portrait, .p6 .line, .p6 .scroll, .p6 .p6_bg2{
+.p6 .music, .p6 .portrait, .p6 .line, .p6 .scroll, .p6 .p6_bg2, .p6 .SP6{
 	-webkit-filter:grayscale(100%);
 }
 .p6 .p6_bg1{
@@ -344,7 +344,7 @@ body{
 .p6 .portrait{
 	margin-left: 47vw;
 }
-.p7 .music, .p7 .portrait, .p7 .line, .p7 .scroll, .p7 .p7_bg2{
+.p7 .music, .p7 .portrait, .p7 .line, .p7 .scroll, .p7 .p7_bg2, .p7 .SP7{
 	-webkit-filter:grayscale(100%);
 }
 .p7{
@@ -474,7 +474,7 @@ body{
 	    margin-top: 45vh;
 	}
 }
-.p8 .music, .p8 .portrait, .p8 .line, .p8 .scroll, .p8 .p8_bg2{
+.p8 .music, .p8 .portrait, .p8 .line, .p8 .scroll, .p8 .p8_bg2, .p8 .SP8{
 	-webkit-filter:grayscale(100%);
 }
 .p8 .p8_bg1{
@@ -588,6 +588,9 @@ body{
   left: 36%;
 }
 .SP6 {
+  left: 63%;
+}
+.SP7 {
   left: 63%;
 }
 .SP8 {

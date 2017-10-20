@@ -34,32 +34,32 @@ $(function () {
           break;
         case 4:
           movelineInP4();
-          $(".p5 .line, .p5 .p5_bg2").addClass("grayscale_animation")
+          $(".p5 .line, .p5 .p5_bg2, .p5 .SP5 ").addClass("grayscale_animation")
           $(".p5 .music").addClass("music_animation")
           $(".p5 .scroll").addClass("scroll_animation")
-          $(".p5 .music, .p5 .scroll, .p5 .portrait, .p5 .line, .p5 .p5_bg2").css("-webkit-filter", "grayscale(0%)")
+          $(".p5 .music, .p5 .scroll, .p5 .portrait, .p5 .line, .p5 .p5_bg2, .p5 .SP5").css("-webkit-filter", "grayscale(0%)")
           $(".p5 .p5_1").css({"animation": "word 1s", "opacity": "1"})
           setInterval(function () {
             $(".p5 .p5_2").css({"animation": "word 1s", "opacity": "1"})
           }, 1000)
           break;
         case 5:
-          $(".p6 .line, .p6 .p6_bg2").addClass("grayscale_animation")
+          $(".p6 .line, .p6 .p6_bg2, .p6 .SP6").addClass("grayscale_animation")
           $(".p6 .music").addClass("music_animation")
           $(".p6 .scroll").addClass("scroll_animation")
           $(".p6 .portrait").addClass("grayscale_animation")
-          $(".p6 .music, .p6 .scroll, .p6 .portrait, .p6 .line, .p6 .p6_bg2").css("-webkit-filter", "grayscale(0%)")
+          $(".p6 .music, .p6 .scroll, .p6 .portrait, .p6 .line, .p6 .p6_bg2, .p6 .SP6").css("-webkit-filter", "grayscale(0%)")
           $(".p6 .p6_1").css({"animation": "word 1s", "opacity": "1"})
           setInterval(function () {
             $(".p6 .p6_3").css({"animation": "word 1s", "opacity": "1"})
           }, 1000)
           break;
         case 6:
-          $(".p7 .line, .p7 .p7_bg2").addClass("grayscale_animation")
+          $(".p7 .line, .p7 .p7_bg2, .p7 .SP7").addClass("grayscale_animation")
           $(".p7 .music").addClass("music_animation")
           $(".p7 .scroll").addClass("scroll_animation")
           $(".p7 .portrait").addClass("grayscale_animation")
-          $(".p7 .music, .p7 .scroll, .p7 .portrait, .p7 .line, .p7 .p7_bg2").css("-webkit-filter", "grayscale(0%)")
+          $(".p7 .music, .p7 .scroll, .p7 .portrait, .p7 .line, .p7 .p7_bg2, .p7 .SP7").css("-webkit-filter", "grayscale(0%)")
           $(".p7 .p7_1").css({"animation": "word 1s", "opacity": "1"})
 
           setTimeout(function () {
@@ -80,11 +80,11 @@ $(function () {
           }, 8000)
           break;
         case 7:
-          $(".p8 .line, .p8 .p8_bg2").addClass("grayscale_animation")
+          $(".p8 .line, .p8 .p8_bg2, .p8 .SP8").addClass("grayscale_animation")
           $(".p8 .music").addClass("music_animation")
           $(".p8 .scroll").addClass("scroll_animation")
           $(".p8 .portrait").addClass("grayscale_animation")
-          $(".p8 .music, .p8 .scroll, .p8 .portrait, .p8 .line, .p8 .p8_bg2").css("-webkit-filter", "grayscale(0%)")
+          $(".p8 .music, .p8 .scroll, .p8 .portrait, .p8 .line, .p8 .p8_bg2, .p8 SP8").css("-webkit-filter", "grayscale(0%)")
           $(".p8 .p8_1").css({"animation": "word 1s", "opacity": "1"})
           setInterval(function () {
             $(".p8 .p8_3").css({"animation": "word 1s", "opacity": "1"})
