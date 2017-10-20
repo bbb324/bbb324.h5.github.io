@@ -211,6 +211,42 @@ body{
 	left: 48vw;
 	width: 51.7vw;
 }
+@media screen and (min-width: 355px) and (max-width: 365px){
+	.p3 .p3_2_bg{
+		width: 50vw;
+	}
+
+	.p3 .p3_2 .p3_2_txt{
+		width: 40vw;
+		height: 6vh;
+	}
+
+	.p3 .p3_3 {
+		margin-top: 3vh;
+	}
+	.p3 .p3_3_bg{
+		width: 60vw;
+	}
+	.p3 .p3_3 .p3_3_txt {
+		width: 50vw;
+		height: 10vh;
+	}
+
+	.p3 .p3_3_bg .avator-fd {
+		width: 9vw;
+	}
+
+	.p3 .p3_4 {
+		margin-top: 3vh;
+	}
+	.p3 .p3_4 .p3_4_txt{
+		width: 52vw;
+		height: 9vh;
+	}
+	.p3 .p3_5{
+		top: 53vh;
+	}
+}
 .p4{
 	display: none;
 	width: 100%;
