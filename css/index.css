@@ -34,11 +34,6 @@ body{
 	animation-iteration-count:infinite;
 	animation-timing-function: linear;
 }
-.music_play{
-	animation:music 5s;
-	animation-iteration-count:infinite;
-	animation-timing-function: linear;
-}
 .music_animation{
 	animation:music 5s, grayscale 3s;
 	animation-iteration-count:infinite, 1;
@@ -63,18 +58,7 @@ body{
 	animation-iteration-count: infinite, 1;
 	animation-timing-function: linear, linear;
 }
-@keyframes scroll{
-	0% {opacity: 0}
-	50% {opacity: 1}
-	100% {opacity: 0}
-}
-.line{
-	position: absolute;
-	bottom: 11.6vh;
-	width: 81.6vw;
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-}
+
 
 .p1{
 	background-image: url(../image/p1.png);
@@ -110,7 +94,7 @@ body{
 .portrait_animation_p5{
 	animation: portrait_p5 1s, grayscale 3s;
 	animation-iteration-count: 1, 1;
-	animation-timing-function: linear, linear;
+	animation-timing-function: ease, ease;
 }
 @keyframes portrait{
 	0% {left: 11vw}
@@ -367,11 +351,11 @@ body{
 	color: black;
 }
 .p7 .p7_bg1{
-	width: 103%;
-    height: 102%;
+	width: 100%;
+	height: 100%;
     position: absolute;
-    top: 13.6vh;
-    right: 3.8vw;
+    top: 14.5vh;
+    right: 5.5vw;
     z-index: 0;
 }
 .p7 .p7_bg2{
@@ -571,4 +555,57 @@ body{
 	width: 100%;
 	height: 100%;
 	opacity: 0;
+}
+
+.lineDiv {
+	  position: absolute;
+    bottom: 11.6vh;
+    width: 81.6vw;
+    height: 4px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+}
+
+@keyframes scroll{
+  0% {opacity: 0}
+  50% {opacity: 1}
+  100% {opacity: 0}
+}
+.line{
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  width: 81.6vw;
+
+}
+.SP2 {
+  left: 5%;
+}
+.SP3 {
+  left: 5%;
+}
+.SP5 {
+  left: 36%;
+}
+.SP6 {
+  left: 63%;
+}
+.SP8 {
+  left: 63%;
+}
+.SP9 {
+  left: 63%;
+}
+.square {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 1s ease;
+}
+.bright {
+  width: 0;
+}
+@keyframes squareSP3{
+0% {left: 5%}
+100% {left: 36%}
 }
