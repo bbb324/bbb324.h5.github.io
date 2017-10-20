@@ -61,22 +61,23 @@ $(function(){
                     $(".p7 .portrait").addClass("grayscale_animation")
                     $(".p7 .music, .p7 .scroll, .p7 .portrait, .p7 .line, .p7 .p7_bg2").css("-webkit-filter", "grayscale(0%)")
 					$(".p7 .p7_1").css({"animation" : "word 1s", "opacity" : "1"})
-	    			setTimeout(function() {
-					    $(".p7 .p7_2_bg").css({"animation" : "word 1s", "opacity" : "1"})
-					    typing("p7_2", p7_str1, 0)
-					}, 1000);
-					setTimeout(function() {
-					    $(".p7 .p7_3_bg").css({"animation" : "word 1s", "opacity" : "1"})
-					}, 3500);
-					setTimeout(function(){
-						typing("p7_3", p7_str2, 0)
-					}, 4000)
-					setTimeout(function() {
-					    $(".p7 .p7_4_bg").css({"animation" : "word 1s", "opacity" : "1"})
-					}, 7000);
-					setTimeout(function(){
-						typing("p7_4", p7_str3, 0)
-					}, 8000)
+
+                    setTimeout(function() {
+                        $(".p7 .p7_2_bg").css({"animation" : "word 1s", "opacity" : "1"})
+                        typing("p7_2_speak", p7_str1, 0)
+                    }, 1000);
+                    setTimeout(function() {
+                        $(".p7 .p7_3_bg").css({"animation" : "word 1s", "opacity" : "1"})
+                    }, 3500);
+                    setTimeout(function(){
+                        typing("p7_3_speak", p7_str2, 0)
+                    }, 4000)
+                    setTimeout(function() {
+                        $(".p7 .p7_4_bg").css({"animation" : "word 1s", "opacity" : "1"})
+                    }, 7000);
+                    setTimeout(function(){
+                        typing("p7_4_speak", p7_str3, 0)
+                    }, 8000)
     				break;
                 case 7:
                     $(".p8 .line, .p8 .p8_bg2").addClass("grayscale_animation")
@@ -131,9 +132,9 @@ var p3_str1 = '请问您有什么财富目标？'
 var p3_str2 = '我希望在我女儿18岁生日的时候能够为她提供留学资金。'
 var p3_str3 = "了解，根据您的需求，请看pad上</br>我为您度身定做的资产配置规划。"
 
-var p7_str1 = "Julie:</br>顺利抵达美国，花旗账户</br>已经开好啦～"
-var p7_str2 = "林先生:</br>好的宝贝。我刚刚把生活费</br>打到你账上了。遇到什么问</br>题随时和我或你妈妈说。"
-var p7_str3 = "Julie:</br>转账收到！谢谢爸爸！"
+var p7_str1 = "顺利抵达美国，花旗账户</br>已经开好啦～"
+var p7_str2 = "好的宝贝。我刚刚把生活费</br>打到你账上了。遇到什么问</br>题随时和我或你妈妈说。"
+var p7_str3 = "转账收到！谢谢爸爸！"
 
 function typing(divname, str, i){
     var div = document.getElementById(divname);
